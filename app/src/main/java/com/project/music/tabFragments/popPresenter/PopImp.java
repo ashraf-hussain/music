@@ -5,9 +5,9 @@ import android.util.Log;
 
 import com.project.music.common.SetupRetrofit;
 import com.project.music.interfaceApi.MusicApiInterface;
-import com.project.music.tabFragments.classicView.ClassicView;
 import com.project.music.tabFragments.musicModel.MusicModel;
 import com.project.music.tabFragments.musicModel.MusicModelResult;
+import com.project.music.tabFragments.popView.PopView;
 
 import java.util.List;
 
@@ -16,34 +16,32 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
-public class ClassicImp implements ClassicPresenter {
+public class PopImp implements PopPresenter {
 
     private List<MusicModel> musicModelList;
-    private ClassicView classicView;
+    private PopView popView;
 
-    public ClassicImp(ClassicView classicView) {
-        this.classicView = classicView;
+    public PopImp(PopView popView) {
+        this.popView = popView;
     }
 
 
     @Override
-    public void loadClassicData() {
+    public void loadPopMusic() {
 
         SetupRetrofit setupRetrofit = new SetupRetrofit();
         Retrofit retrofit = setupRetrofit.getRetrofit();
 
         //starting interface using retrofit object
         MusicApiInterface musicApiInterface = retrofit.create(MusicApiInterface.class);
-        musicApiInterface.getClassicList().enqueue(new Callback<MusicModelResult<MusicModel>>() {
+        musicApiInterface.getPopList().enqueue(new Callback<MusicModelResult<MusicModel>>() {
             @Override
             public void onResponse(Call<MusicModelResult<MusicModel>> call,
                                    Response<MusicModelResult<MusicModel>> response) {
 
-                  Log.d("classicResponse", String.valueOf(response.code()));
-
                 MusicModelResult musicModelResult = response.body();
                 musicModelList = musicModelResult.getData();
-                classicView.showClassicMusicList(musicModelList);
+                popView.showPopMusicList(musicModelList);
 
             }
 
@@ -53,5 +51,5 @@ public class ClassicImp implements ClassicPresenter {
             }
         });
     }
-    
+
 }

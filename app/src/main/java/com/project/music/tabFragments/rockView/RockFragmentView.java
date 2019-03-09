@@ -1,6 +1,6 @@
-package com.project.music.tabFragments;
+package com.project.music.tabFragments.rockView;
 
-import com.project.music.itunesModel.MusicModel;
+import com.project.music.tabFragments.musicModel.MusicModel;
 
 import java.util.List;
 

@@ -15,11 +15,11 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
-public class RockFragmentImp implements RockFragmentPresenter {
+public class RockImp implements RockPresenter {
     private List<MusicModel> musicModelList;
     private RockFragmentView rockFragmentView;
 
-    public RockFragmentImp(RockFragmentView rockFragmentView) {
+    public RockImp(RockFragmentView rockFragmentView) {
         this.rockFragmentView = rockFragmentView;
     }
 

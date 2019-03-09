@@ -1,4 +1,4 @@
-package com.project.music;
+package com.project.music.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,11 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.project.music.itunesModel.MusicModel;
-import com.project.music.tabFragments.RockFragment;
+import com.project.music.R;
+import com.project.music.tabFragments.musicModel.MusicModel;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -22,7 +21,7 @@ import butterknife.ButterKnife;
 public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.ViewHolder> {
 
     private MusicModel musicModel;
-   private List<MusicModel> musicModelList;
+    private List<MusicModel> musicModelList;
     Context context;
 
 
@@ -45,7 +44,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.ViewHolder> 
             Log.d("ooooo", "onBindViewHolder: ");
             holder.tvBandName.setText(musicModel.getArtistName());
             holder.tvSongTitle.setText(musicModel.getTrackName());
-            holder.tvPrice.setText(musicModel.getTrackPrice()+" ");
+            holder.tvPrice.setText(musicModel.getTrackPrice() + " "+"USD");
             Picasso.get().load(musicModel.getArtworkUrl60()).into(holder.ivUserProfileList);
         } catch (Exception e) {
             e.printStackTrace();
