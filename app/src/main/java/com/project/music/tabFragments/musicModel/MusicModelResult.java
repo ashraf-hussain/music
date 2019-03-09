@@ -1,4 +1,4 @@
-package com.project.music.musicModel;
+package com.project.music.tabFragments.musicModel;
 
 
 import java.util.List;

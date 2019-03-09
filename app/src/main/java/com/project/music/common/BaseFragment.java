@@ -1,4 +1,4 @@
-package com.project.music;
+package com.project.music.common;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

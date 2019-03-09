@@ -1,5 +1,5 @@
 package com.project.music.tabFragments.rockPresenter;
 
-public interface RockFragmentPresenter {
+public interface RockPresenter {
     void loadRockMusic();
 }
