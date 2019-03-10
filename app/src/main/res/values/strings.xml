@@ -4,4 +4,7 @@
     <string name="pop">Pop</string>
     <string name="rock">Rock</string>
     <string name="classic">Classic</string>
+    <string name="Offline">You are offline !</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">cancel</string>
 </resources>
