@@ -41,7 +41,6 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.ViewHolder> 
     public void onBindViewHolder(ViewHolder holder, int position) {
         musicModel = musicModelList.get(position);
         try {
-            Log.d("ooooo", "onBindViewHolder: ");
             holder.tvBandName.setText(musicModel.getArtistName());
             holder.tvSongTitle.setText(musicModel.getTrackName());
             holder.tvPrice.setText(musicModel.getTrackPrice() + " "+"USD");
