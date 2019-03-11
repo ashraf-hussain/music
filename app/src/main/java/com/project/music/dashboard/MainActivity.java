@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.project.music.R;
 import com.project.music.adapter.TabAdapter;
+import com.project.music.common.BaseActivity;
 import com.project.music.tabFragments.classicView.ClassicFragment;
 import com.project.music.tabFragments.popView.PopFragment;
 import com.project.music.tabFragments.rockView.RockFragment;
@@ -14,7 +15,7 @@ import com.project.music.tabFragments.rockView.RockFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
 
     @BindView(R.id.tabLayout)
@@ -22,24 +23,25 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.viewPager)
     ViewPager viewPager;
 
+    @Override
+    protected int getLayout() {
+        return R.layout.activity_main;
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
-        this.getSupportActionBar().hide();
+    protected void init() {
+    this.getSupportActionBar().hide();
 
-        ButterKnife.bind(this);
 
-        TabAdapter adapter = new TabAdapter(getSupportFragmentManager());
-        adapter.addFragment(new RockFragment(), "Rock");
-        adapter.addFragment(new ClassicFragment(), "Classic");
-        adapter.addFragment(new PopFragment(), "Pop");
+    TabAdapter adapter = new TabAdapter(getSupportFragmentManager());
+    adapter.addFragment(new RockFragment(), "Rock");
+    adapter.addFragment(new ClassicFragment(), "Classic");
+    adapter.addFragment(new PopFragment(), "Pop");
 
-        viewPager.setAdapter(adapter);
-        tabLayout.setupWithViewPager(viewPager);
-        setupTabIcons();
+    viewPager.setAdapter(adapter);
+    tabLayout.setupWithViewPager(viewPager);
+    setupTabIcons();
+
     }
 
     private void setupTabIcons() {

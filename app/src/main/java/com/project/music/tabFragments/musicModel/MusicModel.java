@@ -1,9 +1,13 @@
 package com.project.music.tabFragments.musicModel;
 
+import android.net.Uri;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class MusicModel {
+import java.io.Serializable;
+
+public class MusicModel implements Serializable {
 
     @SerializedName("wrapperType")
     @Expose

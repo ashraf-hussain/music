@@ -10,7 +10,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import com.project.music.common.BaseActivity;
 import com.project.music.common.ConnectionDetector;
@@ -40,9 +39,6 @@ public class SplashScreenActivity extends BaseActivity {
         window.setFormat(PixelFormat.RGBA_8888);
     }
 
-    /**
-     * Called when the activity is first created.
-     */
     Thread splashTread;
 
 

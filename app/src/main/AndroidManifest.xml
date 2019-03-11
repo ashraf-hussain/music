@@ -12,14 +12,18 @@
         android:roundIcon="@mipmap/ic_main"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".SplashScreenActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".dashboard.MainActivity" />
+        <activity android:name=".dashboard.MainActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".musicDetail.MusicPlayerDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"  />
     </application>
 
 </manifest>

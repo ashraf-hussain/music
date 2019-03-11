@@ -7,4 +7,5 @@
     <string name="Offline">You are offline !</string>
     <string name="retry">Retry</string>
     <string name="cancel">cancel</string>
+    <string name="artist_name">Artist Name :</string>
 </resources>
