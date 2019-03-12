@@ -1,19 +1,16 @@
 package com.project.music.dashboard;
 
-import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 
 import com.project.music.R;
-import com.project.music.adapter.TabAdapter;
+import com.project.music.tabFragments.view.TabAdapter;
 import com.project.music.common.BaseActivity;
-import com.project.music.tabFragments.classicView.ClassicFragment;
-import com.project.music.tabFragments.popView.PopFragment;
-import com.project.music.tabFragments.rockView.RockFragment;
+import com.project.music.tabFragments.classic.classicView.ClassicFragment;
+import com.project.music.tabFragments.pop.popView.PopFragment;
+import com.project.music.tabFragments.rock.rockView.RockFragment;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity {
 

@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 import com.project.music.R;
 import com.project.music.common.AppConstant;
-import com.project.music.tabFragments.musicModel.MusicModel;
+import com.project.music.tabFragments.model.MusicModel;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
