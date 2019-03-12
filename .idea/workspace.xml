@@ -10,45 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f138b09d-35db-413d-b9f4-7630e7930440" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classic/classicPresenter/ClassicPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/pop/popPresenter/PopPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rock/rockPresenter/RockPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/SplashScreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/splash/SplashScreenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/adapter/MusicAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/view/MusicAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/adapter/TabAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/view/TabAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/dashboard/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/dashboard/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/interfaceApi/MusicApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/model/interfaceApi/MusicApiInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classicPresenter/ClassicImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classic/classicPresenter/ClassicImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classicPresenter/ClassicPresenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classic/classicView/ClassicFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classicView/ClassicView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classic/classicView/ClassicView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/musicModel/MusicModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/model/MusicModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/musicModel/MusicModelResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/model/MusicModelResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/popPresenter/PopImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/pop/popPresenter/PopImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/popPresenter/PopPresenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/popView/PopFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/pop/popView/PopFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/popView/PopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/pop/popView/PopView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rockPresenter/RockImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rock/rockPresenter/RockImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rockPresenter/RockPresenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rockView/RockFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rock/rockView/RockFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rockView/RockFragmentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rock/rockView/RockFragmentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_classic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_classic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rock.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,32 +42,32 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="68" />
-          <entry key="xml" value="47" />
+          <entry key="java" value="69" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="68" />
-          <entry key="XML" value="47" />
+          <entry key="JAVA" value="69" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
           <entry key="gradle" value="17" />
-          <entry key="java" value="4379" />
+          <entry key="java" value="4382" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="1958" />
+          <entry key="xml" value="1971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="17" />
-          <entry key="JAVA" value="4379" />
+          <entry key="JAVA" value="4382" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="XML" value="1958" />
+          <entry key="XML" value="1971" />
         </counts>
       </usages-collector>
     </session>
@@ -146,17 +108,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/music_adapter.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="659">
+              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +230,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/offline_notification.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/rockView/RockFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/popView/PopFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/music_adapter.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/common/AppConstant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/musicModel/MusicModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/dashboard/MainActivity.java" />
@@ -256,15 +239,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_music_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_music_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_music_detail_land.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/tabFragments/classic/classicView/ClassicFragment.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/color/button_background.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/music_adapter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java" />
       </list>
     </option>
   </component>
@@ -322,7 +306,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="frag&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java&#10;color&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/res/values/colors.xml&#10;Main&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/dashboard/MainActivity.java&#10;fRA&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java&#10;Adap&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/adapter/MusicAdapter.java&#10;Ma&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/AndroidManifest.xml&#10;interface&#9;PSI&#9;JAVA://com.project.music.interfaceApi.MusicApiInterface" />
+    <property name="SearchEverywhereHistoryKey" value="adapt&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/res/layout/music_adapter.xml&#10;frag&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java&#10;color&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/res/values/colors.xml&#10;Main&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/dashboard/MainActivity.java&#10;fRA&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/tabFragments/classicView/ClassicFragment.java&#10;Adap&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/java/com/project/music/adapter/MusicAdapter.java&#10;Ma&#9;FILE&#9;file:///Users/ashraf/Documents/music/app/src/main/AndroidManifest.xml&#10;interface&#9;PSI&#9;JAVA://com.project.music.interfaceApi.MusicApiInterface" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="b1172a0d" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/project/music" />
@@ -451,7 +435,7 @@
     <frame x="0" y="23" width="1680" height="967" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32967034" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -459,20 +443,20 @@
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32959184" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.47857141" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.4777143" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32914287" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32914287" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.36914286" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.36914286" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32959184" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.25152627" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.25152627" />
       <window_info anchor="right" id="Android WiFi ADB" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
@@ -701,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/music_adapter.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -720,6 +696,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="method#setupTabIcons#0;class#MainActivity#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,13 +709,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="215" column="10" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -783,6 +755,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#2952#2973#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -825,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -846,10 +814,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_cancel_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/music_adapter.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/music/musicDetail/MusicPlayerDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
