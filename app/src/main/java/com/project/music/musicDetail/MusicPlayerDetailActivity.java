@@ -220,7 +220,6 @@ public class MusicPlayerDetailActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         mediaPlayer.stop();
-        handler.removeCallbacks(runnable);
     }
 
     @Override
