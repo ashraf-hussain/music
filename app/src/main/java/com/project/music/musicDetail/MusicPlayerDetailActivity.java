@@ -6,12 +6,9 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -21,16 +18,16 @@ import android.widget.Toast;
 
 import com.project.music.R;
 import com.project.music.common.AppConstant;
+import com.project.music.common.BaseActivity;
 import com.project.music.tabFragments.model.MusicModel;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MusicPlayerDetailActivity extends AppCompatActivity {
+public class MusicPlayerDetailActivity extends BaseActivity {
     @BindView(R.id.tb_title)
     TextView tbTitle;
     @BindView(R.id.toolbar)
@@ -47,24 +44,18 @@ public class MusicPlayerDetailActivity extends AppCompatActivity {
     SeekBar seekBarMusic;
     @BindView(R.id.main_ll_music_detail)
     LinearLayout mainLlMusicDetail;
-    // @BindView(R.id.tv_track_time)
-    //TextView tvTrackTime;
     private MediaPlayer mediaPlayer;
     private MusicModel musicModel;
     Handler handler;
     Runnable runnable;
-    long milli;
-    String hms;
 
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_music_detail_land);
-        ButterKnife.bind(this);
-        init();
+    protected int getLayout() {
+        return R.layout.activity_music_detail_land;
     }
 
+    @Override
     protected void init() {
         this.getSupportActionBar().hide();
         mediaPlayer = new MediaPlayer();
@@ -81,20 +72,14 @@ public class MusicPlayerDetailActivity extends AppCompatActivity {
             musicModel = (MusicModel) intent.getSerializableExtra(AppConstant.MUSIC_DETAIL_DATA);
         }
 
-        milli = musicModel.getTrackTimeMillis();
-//        hms = String.format("%02d:%02d:%02d", TimeUnit.MILLISECONDS.toHours(milli),
-//                TimeUnit.MILLISECONDS.toMinutes(milli) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(milli)),
-//                TimeUnit.MILLISECONDS.toSeconds(milli) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(milli)));
-
         tvBandNameMusicDetail.setText(musicModel.getArtistName());
         tvMusicTitleDetail.setText(musicModel.getTrackName());
-        //tvTrackTime.setText(hms + "");
-
         Picasso.get().load(musicModel.getArtworkUrl60()).into(ivArtist);
-        Log.d("image", musicModel.getPreviewUrl());
 
         playMusic();
+
     }
+
 
     private void playMusic() {
         try {
@@ -208,13 +193,6 @@ public class MusicPlayerDetailActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
     }
 
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-
-        //setContentView(R.layout.activity_music_detail_land);
-        //Toast.makeText(this, "change", Toast.LENGTH_SHORT).show();
-    }
 
     @Override
     public void onBackPressed() {
