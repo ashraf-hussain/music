@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#086604"
     android:orientation="vertical"
-    tools:context=".tabFragments.rockView.RockFragment">
+    tools:context=".tabFragments.rock.rockView.RockFragment">
 
 
     <LinearLayout
